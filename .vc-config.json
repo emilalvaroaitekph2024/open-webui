@@ -1,0 +1,10 @@
+type ServerlessFunctionConfig = {
+  handler: string;
+  runtime: string;
+  memory?: number;
+  maxDuration?: number;
+  environment: Record<string, string>[];
+  regions?: string[];
+  supportsWrapper?: boolean;
+  supportsResponseStreaming?: boolean;
+};
