@@ -23,7 +23,7 @@ export default defineConfig({
   },
   build: {
     sourcemap: true,
-    outDir: 'dist'
+    outDir: 'build'  // Ensure this matches the `svelte.config.js`
   },
   worker: {
     format: 'es'
